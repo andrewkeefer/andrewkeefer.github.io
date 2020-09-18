@@ -22,9 +22,9 @@ nav>ul li {
 nav a {
     text-decoration: none;
     display: inline-block;
-    border: 3px dotted red;
-    padding: 12px 12px 12px 12px;
-    width: 120px;
+    border: 2px dotted red;
+    padding: 10px 10px 10px 10px;
+    width: 100px;
     margin: 2px;
 }
 
@@ -41,7 +41,7 @@ nav a:active{
 
 nav ul>li ul {
     position: absolute;
-    top: 75%;
+    top: 50%;
     display: none;
 }
 nav ul ul li {

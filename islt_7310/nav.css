@@ -51,3 +51,8 @@ nav ul ul li {
 nav>ul>li:hover>ul{
     display: block;
 }
+p::first-letter {
+  font-family: fantasy
+}
+
+p::first-line { text-indent: inherit}

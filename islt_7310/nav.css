@@ -56,3 +56,36 @@ p::first-letter {
 }
 
 p::first-line { text-indent: inherit}
+
+main {
+display: grid; grid-template: repeat(2, 50px) / repeat(3, 1fr); grid-gap: 20px; }
+
+main {
+display: grid;
+grid-template: repeat(2, 50px) / repeat(auto-fill, minmax(75px, 1fr)); grid-gap: 20px; 
+
+@media screen and (min-width: 800px) {
+  body {
+    background: white;
+    margin: 25px 6%;
+  }
+  
+  figure {
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  body {
+    background: white;
+    margin: 25px 10%;
+    max-width: 1200px;
+  }
+  
+  figure {
+    width: 30%;
+    margin-right: 3%;
+  }

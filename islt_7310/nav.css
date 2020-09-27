@@ -56,10 +56,3 @@ p::first-letter {
 }
 
 p::first-line { text-indent: inherit}
-
-main {
-display: grid; grid-template: repeat(2, 50px) / repeat(3, 1fr); grid-gap: 20px; }
-
-main {
-display: grid;
-grid-template: repeat(2, 50px) / repeat(auto-fill, minmax(75px, 1fr)); grid-gap: 20px; 

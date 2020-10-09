@@ -1,19 +1,11 @@
-.heading1 {color: #ff6633;}
-.heading3 {color: blue;}
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
 
-<style> 
-@font-face {
-  font-family: sansation;
-  src: url(sansation_light.woff);
-}
+<i class="fa fa-cloud"></i>
+<i class="fa fa-heart"></i>
+<i class="fa fa-car"></i>
+<i class="fa fa-file"></i>
+<i class="fa fa-bars"></i>
 
-@font-face {
-  font-family: sansation;
-  src: url(sansation_bold.woff);
-  font-weight: bold;
-}
-
-body {
-  font-family: sansation;
-}
-</style>
+</body>

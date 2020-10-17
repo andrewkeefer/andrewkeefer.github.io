@@ -1,11 +1,15 @@
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-</head>
-<body>
+footer {
+  text-align: left;
+  padding: 3px;
+  background-image: url(https://www.playworks.org/wp-content/uploads/2013/10/37120372-baseball-pictures.jpg);
+  color: black;
+}
+h1 {font: fantasy;
+color: blue;
+font-weight: bold}
 
-<i class="fa fa-cloud"></i>
-<i class="fa fa-heart"></i>
-<i class="fa fa-car"></i>
-<i class="fa fa-file"></i>
-<i class="fa fa-bars"></i>
-
-</body>
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}

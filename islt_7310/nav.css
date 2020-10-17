@@ -55,3 +55,11 @@ p::first-letter {
 }
 
 p::first-line { text-indent: inherit}
+
+footer#footer .inner{
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: left top;
+background-color: aqua;
+}

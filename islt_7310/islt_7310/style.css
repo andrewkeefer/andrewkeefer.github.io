@@ -1,19 +1,15 @@
-.heading1 {color: #ff6633;}
-.heading3 {color: blue;}
-
-<style> 
-@font-face {
-  font-family: sansation;
-  src: url(sansation_light.woff);
+footer {
+  text-align: left;
+  padding: 3px;
+  background-image: url(https://www.playworks.org/wp-content/uploads/2013/10/37120372-baseball-pictures.jpg);
+  color: black;
 }
+h1 {font: fantasy;
+color: blue;
+font-weight: bold}
 
-@font-face {
-  font-family: sansation;
-  src: url(sansation_bold.woff);
-  font-weight: bold;
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
-
-body {
-  font-family: sansation;
-}
-</style>

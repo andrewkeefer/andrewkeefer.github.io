@@ -4,7 +4,7 @@ footer {
   background-image: url(https://www.playworks.org/wp-content/uploads/2013/10/37120372-baseball-pictures.jpg);
   color: black;
 }
-h1 {font: fantasy;
+h1 {font: serif;
 color: blue;
 font-weight: bold}
 
@@ -44,9 +44,7 @@ th, td {
   background-color: black;
   color: white;
 }
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+body {font-family: Arial, Helvetica, sans-serif;} {box-sizing: border-box;}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -76,26 +74,8 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-    "fa fa-cloud"{
-    padding:inherit;
-    transition: transform .25s;
-    width:2em;
-    height:2em;
-    margin:0 auto;
-}
-"fa fa-cloud":hover{
-    transform: scale(1.5);
-}
-.responsive {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-}
 }
 </style>
-    
-</style
-
 @font-face {
   font-family: 'Recursive';
   font-style: normal;
@@ -108,11 +88,6 @@ input[type=submit]:hover {
        url('../fonts/recursive-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/recursive-v20-latin-regular.svg#Recursive') format('svg'); /* Legacy iOS */
 }
-p~blockquote{
-    color:skyblue;
-    font-weight: bold;
-    margin-top: 5em;
-    font-family: 'Recursive';
 @media print {
     body{
         background-color:white;

@@ -9,6 +9,20 @@ color: blue;
 font-weight: bold}
 
 <style>
+#fa fa-cloud {
+    padding:inherit;
+    transition: transform .25s;
+    width:2em;
+    height:2em;
+    margin:0 auto;
+}
+#fa fa-cloud:hover{
+    transform: scale(1.5);
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
 table {
   width:100%;
 }
@@ -62,6 +76,21 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+    "fa fa-cloud"{
+    padding:inherit;
+    transition: transform .25s;
+    width:2em;
+    height:2em;
+    margin:0 auto;
+}
+"fa fa-cloud":hover{
+    transform: scale(1.5);
+}
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
 }
 </style>
     
@@ -125,15 +154,3 @@ p~blockquote{
         display:none;
     }
 }
-"fa fa-cloud"{
-    padding:inherit;
-    transition: transform .25s;
-    width:2em;
-    height:2em;
-    margin:0 auto;
-}
-"fa fa-cloud":hover{
-    transform: scale(1.5);
-}
-    
-    

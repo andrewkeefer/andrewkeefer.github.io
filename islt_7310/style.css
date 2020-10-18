@@ -9,6 +9,20 @@ color: blue;
 font-weight: bold}
 
 <style>
+#fa fa-cloud {
+    padding:inherit;
+    transition: transform .25s;
+    width:2em;
+    height:2em;
+    margin:0 auto;
+}
+#fa fa-cloud:hover{
+    transform: scale(1.5);
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
 table {
   width:100%;
 }
@@ -30,6 +44,56 @@ th, td {
   background-color: black;
   color: white;
 }
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+    "fa fa-cloud"{
+    padding:inherit;
+    transition: transform .25s;
+    width:2em;
+    height:2em;
+    margin:0 auto;
+}
+"fa fa-cloud":hover{
+    transform: scale(1.5);
+}
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+}
+</style>
+    
 </style
 
 @font-face {
@@ -89,14 +153,4 @@ p~blockquote{
     #fa fa-cloud{
         display:none;
     }
-}
-"fa fa-cloud"{
-    padding:inherit;
-    transition: transform .25s;
-    width:2em;
-    height:2em;
-    margin:0 auto;
-}
-"fa fa-cloud":hover{
-    transform: scale(1.5);
 }
